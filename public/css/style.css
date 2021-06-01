@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #f2f2f2;
+    
+}
+
+/* NAV BAR */
+
+
+.contenedor{
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+}
+
+nav{
+    height: 70px;
+    background: #143d64;
+}
+
+.nav-content{
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.enlaces{
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 1.2rem;
+}
+
+.enlaces:hover {
+    background: black;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.active {
+    background: black;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+/* Bienvenidos del home*/
+.container-home{
+    background-color: #c7bea6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+   
+}
+
+.bienvenidos {
+     text-align: center;
+     border: 5px solid  red;
+     padding: 20px;
+   
+}
+
+.bienvenidos p {
+    margin-top: 15px;
+    font-size: 1.5rem;
+}
+
+
+
+/* CARDS */
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.conte{
+    height: 470px;
+    width: 25%;
+    box-shadow:0 0 7px #111 ;
+    margin: 20px 20px;
+}
+.conte .card{
+    height: 200px;
+    width: 100%;
+    margin-bottom:50px;
+}
+.card img{
+    margin: auto;
+    display: block;
+}
+.conte .hamilton img{
+    height: 100%;
+    width: 70%;
+}
+.conte .hamilton{
+     background-color: #111;
+}
+.conte .babbage{
+    background-color: #424242;
+}
+.conte .berners-lee{
+    background-color:#300279;
+}
+
+.conte .clarke{
+    background-color:#ff0606;
+}
+
+.conte .hopper{
+    background-color:#8d732d;
+}
+
+.conte .lovelace{
+    background-color:#4f0052;
+}
+
+.conte .turing{
+    background-color:#979797;
+}
+.conte .babbage img{
+    height: 100%;
+    width: 60%;
+}
+.conte .berners-lee img{
+    height: 100%;
+    width:40%;
+}
+
+.conte .clarke img{
+    height: 100%;
+    width: 50%;
+}
+
+.conte .hopper img{
+    height: 100%;
+    width: 60%;
+}
+
+.conte .lovelace img{
+    height: 100%;
+    width: 55%;
+}
+
+.conte .turing img{
+    height: 100%;
+    width: 50%;
+}
+
+
+.informacion{
+    height: 80px;
+    width: 100%;
+}
+.informacion h1{
+    font-family: sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+    color: #333;
+    
+}
+.informacion p{
+    margin: 0 20px;
+    margin-top:20px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: .9em;
+    color: #555;
+}
+
+
+
+
+@media (max-width:360px)
+
+
+
+{
+    nav{
+        height: 100px;
+       
+    }
+
+    .nav-content{
+        height: 100%;
+        flex-wrap: wrap;
+    }
+
+
+    .conte{
+        height: 600px;
+        width: 100%;
+        margin: 30px 0;
+    }
+}
+
+@media (max-width:468px)
+{
+
+
+    .conte{
+        height: 600px;
+        width: 100%;
+        margin: 30px 0;
+    }
+}
+
+
+
+
+
+@media (max-width:768px)
+{
+    nav{
+        height: 100px;
+       
+    }
+
+    .nav-content{
+        height: 100%;
+        flex-wrap: wrap;
+    }
+
+.active {
+    background: none;
+    text-decoration: underline red;    
+  
+   
+}
+
+    .nav-content{
+        
+            font-size: 5px;
+    }
+
+   
+    .conte{
+        width: 40%;
+        margin: 30px 20px;
+    }
+}
